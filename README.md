@@ -1,4 +1,4 @@
-# MachineLearning
+# Machine Learning
 Repository Description:
 Different machine learning algorithms implemented from scratch.
 
