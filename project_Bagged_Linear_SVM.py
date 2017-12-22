@@ -96,7 +96,7 @@ def bagging_predict(svmModels, row):
     pred=[i[0] for i in predictions]
     return max(set(pred), key=pred.count)
 def buildSvm(samData,samLabel):
-    model = svm.SVC(kernel='linear', C=1) 
+    model = svm.SVC(kernel='linear', C=0.1) 
     model.fit(samData, samLabel)
     model.score(samData, samLabel)
     return model
